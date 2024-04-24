@@ -15378,3 +15378,13 @@ CtcCriterion()
 [2024-04-23 23:43:32,882][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.914]
 [2024-04-23 23:43:32,885][fairseq.checkpoint_utils][INFO] - Preparing to save checkpoint for epoch 160 @ 3993 updates
 [2024-04-23 23:43:32,887][fairseq.trainer][INFO] - Saving checkpoint to /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt
+[2024-04-23 23:43:37,192][fairseq.trainer][INFO] - Finished saving checkpoint to /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt
+[2024-04-23 23:43:37,259][fairseq.checkpoint_utils][INFO] - Saved checkpoint /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt (epoch 160 @ 3993 updates, score 99.742) (writing took 4.374180366052315 seconds)
+[2024-04-23 23:43:37,260][fairseq_cli.train][INFO] - end of epoch 160 (average epoch stats below)
+[2024-04-23 23:43:37,264][train][INFO] - {"epoch": 160, "train_loss": "989.732", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.31", "train_wps": "9388.9", "train_ups": "0.46", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "3993", "train_lr": "0.0001", "train_gnorm": "47.117", "train_loss_scale": "16", "train_train_wall": "39", "train_gb_free": "9.8", "train_wall": "8055"}
+[2024-04-23 23:43:37,271][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:43:37,636][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 161
+[2024-04-23 23:43:37,699][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:43:37,710][fairseq.trainer][INFO] - begin training epoch 161
+[2024-04-23 23:43:37,711][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:43:49,150][train_inner][INFO] - {"epoch": 161, "update": 160.28, "loss": "992.446", "ntokens": "20296.3", "nsentences": "108.6", "nll_loss": "5.31", "wps": "9863.5", "ups": "0.49", "wpb": "20296.3", "bsz": "108.6", "num_updates": "4000", "lr": "0.0001", "gnorm": "47.659", "loss_scale": "16", "train_wall": "77", "gb_free": "9.7", "wall": "8067"}
