@@ -50,6 +50,14 @@ class AudioFinetuningConfig(AudioPretrainingConfig):
     eval_wer: bool = field(
         default=False, metadata={"help": "compute WER for Seq2Seq models"}
     )
+    add_gaussian_train_noise: bool = field(
+        default=False, metadata={"help": "Adds gaussian noise in training"}
+    )
+
+    add_uniform_train_noise: bool = field(
+        default=False, metadata={"help": "Adds uniform noise in training"}
+    )
+
     eval_wer_config: GenerationConfig = field(
         default_factory=lambda: GenerationConfig(),
         metadata={"help": "beam search config for evaluating wer during training"},
@@ -120,6 +128,8 @@ class AudioFinetuningTask(AudioPretrainingTask):
         cfg: AudioFinetuningConfig,
     ):
         super().__init__(cfg)
+        print('AA', cfg.add_gaussian_train_noise)  # Check the actual value received
+        print('BB', cfg.add_uniform_train_noise)
         self.blank_symbol = "<s>"
 
         self.state.add_factory("target_dictionary", self.load_target_dictionary)

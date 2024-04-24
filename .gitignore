@@ -139,3 +139,10 @@ wandb/
 nohup.out
 multirun
 outputs
+
+
+# Data / pre trained models
+voice-icar-federico-ii-database-1.0.0/
+processed_VOICED/
+pretrained_models/
+librispeech_finetuning/

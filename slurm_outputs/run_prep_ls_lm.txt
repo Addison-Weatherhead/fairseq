@@ -1,0 +1,11 @@
+Downloading Librispeech official LM model...
+
+Arpa file /h/addisonw/fairseq/pretrained_models/kenlm/4-gram.arpa exist, skip its downloading.
+Saving ARPA LM file in binary format ...
+
+Reading /h/addisonw/fairseq/pretrained_models/kenlm/4-gram.arpa.tmp
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+SUCCESS
+Writing Lexicon file - /h/addisonw/fairseq/pretrained_models/kenlm/lexicon.txt...
+Done!

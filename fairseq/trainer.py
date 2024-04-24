@@ -53,6 +53,10 @@ class Trainer(object):
 
         self.cfg = cfg
         self.task = task
+        print("TASK NAME!!")
+        print(self.task.__class__.__name__)
+        print('config passed in!')
+        print(self.cfg)
 
         # catalog shared parameters
         shared_params = _catalog_shared_params(model)
@@ -581,7 +585,10 @@ class Trainer(object):
                         )
                         layer._prune_fc_layer(remove_index=remove_index)
                     logger.info(self.model)
-
+                
+                self.cfg['model']['add_gaussian_train_noise'] = self.cfg.add_gaussian_train_noise
+                self.cfg['model']['add_uniform_train_noise'] = self.cfg.add_uniform_train_noise
+                
                 self.model.load_state_dict(
                     state["model"], strict=True, model_cfg=self.cfg.model
                 )
@@ -1128,7 +1135,7 @@ class Trainer(object):
         return logging_output
 
     @metrics.aggregate("valid")
-    def valid_step(self, sample, raise_oom=False):
+    def valid_step(self, sample, raise_oom=False, noise_type=None):
         """Do forward pass in evaluation mode."""
         if self.tpu:
             import torch_xla.core.xla_model as xm
@@ -1147,6 +1154,15 @@ class Trainer(object):
             self.criterion.eval()
 
             sample, is_dummy_batch = self._prepare_sample(sample)
+            sigma, max_val = 0.05, sample['net_input']['source'].abs().max()
+            if noise_type == 'gaussian':
+                print('VALID STEP WITH GAUSSIAN NOISE')
+                sample['net_input']['source'] = sample['net_input']['source'] + (torch.randn_like(sample['net_input']['source'])*sigma*max_val)
+            elif noise_type == 'uniform':
+                print('VALID STEP WITH UNIFORM NOISE')
+                sample['net_input']['source'] = sample['net_input']['source'] + (torch.rand_like(sample['net_input']['source'])*sigma*max_val)
+            else:
+                print('VALID STEP WITHOUT NOISE')
 
             try:
                 _loss, sample_size, logging_output = self.task.valid_step(

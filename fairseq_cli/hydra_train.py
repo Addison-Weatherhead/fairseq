@@ -28,6 +28,8 @@ def hydra_main(cfg: FairseqConfig) -> float:
 
 
 def _hydra_main(cfg: FairseqConfig, **kwargs) -> float:
+    print("HYDRA CONFIG:")
+    print(cfg)
     add_defaults(cfg)
 
     if cfg.common.reset_logging:

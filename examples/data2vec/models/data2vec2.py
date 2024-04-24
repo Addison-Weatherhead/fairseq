@@ -61,7 +61,6 @@ class D2vModalitiesConfig(FairseqDataclass):
 
 @dataclass
 class Data2VecMultiConfig(FairseqDataclass):
-
     loss_beta: float = field(
         default=0, metadata={"help": "beta for smooth l1 loss. 0 means use l2 loss"}
     )
@@ -71,7 +70,6 @@ class Data2VecMultiConfig(FairseqDataclass):
             "help": "scale the reconstruction loss by this constant. if None then scales by 1/sqrt(dim)"
         },
     )
-
     depth: int = 8
     start_drop_path_rate: float = 0
     end_drop_path_rate: float = 0
@@ -182,7 +180,16 @@ class Data2VecMultiModel(BaseFairseqModel):
 
     def __init__(self, cfg: Data2VecMultiConfig, modalities, skip_ema=False, task=None):
         super().__init__()
+
+        ##################
+        # MANUALLY ADDED VALUES DIRECTLY IN CODE
+        self.add_gaussian_train_noise = False
+        self.add_uniform_train_noise = True
+        print('ADD GAUSSIAN NOISE TO TRAINING?: ', self.add_gaussian_train_noise)
+        print('ADD UNIFORM NOISE TO TRAINING?: ', self.add_uniform_train_noise)
+        #################
         self.cfg = cfg
+        #assert False
         self.modalities = modalities
         self.task = task
 
@@ -205,7 +212,6 @@ class Data2VecMultiModel(BaseFairseqModel):
                 layer_norm_first=cfg.layer_norm_first,
                 ffn_targets=not cfg.end_of_block_targets,
             )
-
         self.alibi_biases = {}
         self.modality_encoders = nn.ModuleDict()
         for mod in self.modalities:
@@ -307,7 +313,6 @@ class Data2VecMultiModel(BaseFairseqModel):
 
     def make_target_model(self):
         logger.info("making target model")
-
         model_copy = Data2VecMultiModel(
             self.cfg, self.modalities, skip_ema=True, task=self.task
         )
@@ -416,9 +421,19 @@ class Data2VecMultiModel(BaseFairseqModel):
         mask_seeds = None
         if id is not None:
             mask_seeds = MaskSeed(seed=self.cfg.seed, update=self.num_updates, ids=id)
-
+        if self.training:
+            assert not (self.add_gaussian_train_noise and self.add_uniform_train_noise) # Can't have both at same time
+            sigma, max_val = 0.05, source.abs().max()
+            if self.add_gaussian_train_noise:
+                noisy_source = source + (torch.randn_like(source)*sigma*max_val)
+            elif self.add_uniform_train_noise:
+                noisy_source = source + (torch.rand_like(source)*sigma*max_val)
+            else: 
+                noisy_source = source
+        else: # ie eval mode
+            noisy_source = source
         extractor_out = feature_extractor(
-            source,
+            noisy_source,
             padding_mask,
             mask,
             remove_masked=not features_only or force_remove_masked,

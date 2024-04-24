@@ -42,6 +42,8 @@ from fairseq.trainer import Trainer
 
 
 def main(cfg: FairseqConfig) -> None:
+    print("ENTERED MAIN")
+    print(f"Python path: {sys.path}")
     if isinstance(cfg, argparse.Namespace):
         cfg = convert_namespace_to_omegaconf(cfg)
 
@@ -94,6 +96,7 @@ def main(cfg: FairseqConfig) -> None:
             model = fsdp_wrap(task.build_model(cfg.model))
     else:
         model = task.build_model(cfg.model)
+
     criterion = task.build_criterion(cfg.criterion)
     logger.info(model)
     logger.info("task: {}".format(task.__class__.__name__))
@@ -430,10 +433,11 @@ def validate_and_save(
         and num_updates >= cfg.dataset.validate_after_updates
     )
 
+    '''
     # Validate
     valid_losses = [None]
     if do_validate:
-        valid_losses = validate(cfg, trainer, task, epoch_itr, valid_subsets)
+        valid_losses = validate(cfg, trainer, task, epoch_itr, valid_subsets, noise_type=None)
 
     should_stop |= should_stop_early(cfg, valid_losses[0])
 
@@ -444,8 +448,24 @@ def validate_and_save(
         )
         if cp_path is not None and hasattr(task, "post_save"):
             task.post_save(cp_path, num_updates)
+    '''
+    # Validate for each noise type and save results
+    noise_types = [None, 'gaussian', 'uniform']
+    all_valid_losses = {None: [None]}
+    for noise in noise_types:
+        if do_validate:
+            valid_losses = validate(cfg, trainer, task, epoch_itr, valid_subsets, noise_type=noise)
+            all_valid_losses[noise] = valid_losses
+            logger.info(f"Validation losses for noise type '{noise}': {valid_losses}")
 
-    return valid_losses, should_stop
+    # Early stopping and checkpoint decisions are just cbased on validation results without noise
+    no_noise_valid_losses = all_valid_losses.get(None)
+    should_stop |= should_stop_early(cfg, no_noise_valid_losses[0])
+    if do_save or should_stop:
+        cp_path = checkpoint_utils.save_checkpoint(cfg.checkpoint, trainer, epoch_itr, no_noise_valid_losses[0])
+        if cp_path is not None and hasattr(task, "post_save"):
+            task.post_save(cp_path, num_updates)
+    return all_valid_losses[None], should_stop
 
 
 def get_training_stats(stats: Dict[str, Any]) -> Dict[str, Any]:
@@ -459,6 +479,7 @@ def validate(
     task: tasks.FairseqTask,
     epoch_itr,
     subsets: List[str],
+    noise_type: str=None,
 ) -> List[Optional[float]]:
     """Evaluate the model on the validation set(s) and return the losses."""
 
@@ -519,7 +540,7 @@ def validate(
                     and i > cfg.dataset.max_valid_steps
                 ):
                     break
-                trainer.valid_step(sample)
+                trainer.valid_step(sample, raise_oom=False, noise_type=noise_type)
 
         # log validation stats
         # only tracking the best metric on the 1st validation subset

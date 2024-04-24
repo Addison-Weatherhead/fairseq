@@ -113,7 +113,8 @@ class BaseFairseqModel(nn.Module):
         Overrides the method in :class:`nn.Module`. Compared with that method
         this additionally "upgrades" *state_dicts* from old checkpoints.
         """
-
+        print('load state dict config')
+        print(model_cfg)
         if model_cfg is None and args is not None:
             logger.warn(
                 "using 'args' is deprecated, please update your code to use dataclass config"
@@ -125,6 +126,8 @@ class BaseFairseqModel(nn.Module):
         from fairseq.checkpoint_utils import prune_state_dict
 
         new_state_dict = prune_state_dict(state_dict, model_cfg)
+        print('again load state dict config')
+        print(model_cfg)
         return super().load_state_dict(new_state_dict, strict)
 
     def upgrade_state_dict(self, state_dict):

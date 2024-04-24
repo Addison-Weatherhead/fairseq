@@ -409,8 +409,14 @@ class Wav2VecEncoder(FairseqEncoder):
         }
 
         if cfg.w2v_args is None:
+            print("LOADING CHECKPOINT HERE!!!")
+            print('path: ', cfg.w2v_path)
+            print('cfg: ')
+            print(cfg)
             state = checkpoint_utils.load_checkpoint_to_cpu(cfg.w2v_path, arg_overrides)
             w2v_args = state.get("cfg", None)
+            print('w2v_args:')
+            print(w2v_args)
             if w2v_args is None:
                 w2v_args = convert_namespace_to_omegaconf(state["args"])
             w2v_args.criterion = None
@@ -426,8 +432,10 @@ class Wav2VecEncoder(FairseqEncoder):
             if isinstance(w2v_args, Namespace):
                 cfg.w2v_args = w2v_args = convert_namespace_to_omegaconf(w2v_args)
 
+        print('w2v_args NOW: ')
+        print(w2v_args)
         self.is_d2v_multi = "data2vec_multi" in w2v_args.model.get("_name", None)
-
+        print('self.is_d2v_multi: ', self.is_d2v_multi)
         if not self.is_d2v_multi:
             model_normalized = w2v_args.task.get(
                 "normalize", w2v_args.model.get("normalize", False)

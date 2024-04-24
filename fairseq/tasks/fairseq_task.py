@@ -351,7 +351,8 @@ class FairseqTask(object):
             a :class:`~fairseq.models.BaseFairseqModel` instance
         """
         from fairseq import models, quantization_utils
-
+        print('build model called with this config: ')
+        print(cfg)
         model = models.build_model(cfg, self, from_checkpoint)
         model = quantization_utils.quantize_model_scalar(model, cfg)
         return model
@@ -537,6 +538,8 @@ class FairseqTask(object):
         return loss, sample_size, logging_output
 
     def valid_step(self, sample, model, criterion):
+        print("EVAL STEP. CRITERION ")
+        print(criterion)
         model.eval()
         with torch.no_grad():
             loss, sample_size, logging_output = criterion(model, sample)
