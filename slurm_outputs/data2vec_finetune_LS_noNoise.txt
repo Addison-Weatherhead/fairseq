@@ -15388,3 +15388,1868 @@ CtcCriterion()
 [2024-04-23 23:43:37,710][fairseq.trainer][INFO] - begin training epoch 161
 [2024-04-23 23:43:37,711][fairseq_cli.train][INFO] - Start iterating over samples
 [2024-04-23 23:43:49,150][train_inner][INFO] - {"epoch": 161, "update": 160.28, "loss": "992.446", "ntokens": "20296.3", "nsentences": "108.6", "nll_loss": "5.31", "wps": "9863.5", "ups": "0.49", "wpb": "20296.3", "bsz": "108.6", "num_updates": "4000", "lr": "0.0001", "gnorm": "47.659", "loss_scale": "16", "train_wall": "77", "gb_free": "9.7", "wall": "8067"}
+[2024-04-23 23:44:16,362][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:44:16,368][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:44:16,820][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 482
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:44:19,460][valid][INFO] - {"epoch": 161, "valid_loss": "1434.3", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.948", "valid_uer": "74.164", "valid_wer": "99.828", "valid_raw_wer": "99.914", "valid_wps": "1369.8", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4018", "valid_best_wer": "99.655"}
+[2024-04-23 23:44:19,464][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:44:19,465][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:44:19,467][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:44:19,931][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 483
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:44:22,517][valid][INFO] - {"epoch": 161, "valid_loss": "1147.77", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.56", "valid_uer": "80.01", "valid_wer": "100", "valid_raw_wer": "99.828", "valid_wps": "1435.2", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4018", "valid_best_wer": "99.655"}
+[2024-04-23 23:44:22,522][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [100.0]
+[2024-04-23 23:44:22,523][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:44:22,525][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:44:22,899][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 484
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:44:25,608][valid][INFO] - {"epoch": 161, "valid_loss": "1320.19", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.395", "valid_uer": "76.134", "valid_wer": "99.914", "valid_raw_wer": "99.655", "valid_wps": "1319.7", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4018", "valid_best_wer": "99.655"}
+[2024-04-23 23:44:25,612][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.914]
+[2024-04-23 23:44:25,612][fairseq_cli.train][INFO] - end of epoch 161 (average epoch stats below)
+[2024-04-23 23:44:25,613][train][INFO] - {"epoch": 161, "train_loss": "995.38", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.34", "train_wps": "10510.5", "train_ups": "0.52", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4018", "train_lr": "0.0001", "train_gnorm": "49.348", "train_loss_scale": "16", "train_train_wall": "38", "train_gb_free": "9.9", "train_wall": "8104"}
+[2024-04-23 23:44:25,619][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:44:26,223][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 162
+[2024-04-23 23:44:26,337][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:44:26,352][fairseq.trainer][INFO] - begin training epoch 162
+[2024-04-23 23:44:26,353][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:45:06,295][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:45:06,298][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:45:06,790][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 485
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:45:09,361][valid][INFO] - {"epoch": 162, "valid_loss": "1437.19", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.962", "valid_uer": "73.971", "valid_wer": "99.914", "valid_raw_wer": "100", "valid_wps": "1425.9", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4043", "valid_best_wer": "99.655"}
+[2024-04-23 23:45:09,365][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.914]
+[2024-04-23 23:45:09,366][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:45:09,368][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:45:09,843][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 486
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:45:12,400][valid][INFO] - {"epoch": 162, "valid_loss": "1153.46", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.588", "valid_uer": "79.913", "valid_wer": "99.569", "valid_raw_wer": "99.742", "valid_wps": "1420.5", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4043", "valid_best_wer": "99.569"}
+[2024-04-23 23:45:12,405][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.569]
+[2024-04-23 23:45:12,406][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:45:12,408][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:45:12,787][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 487
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:45:15,382][valid][INFO] - {"epoch": 162, "valid_loss": "1320.73", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.398", "valid_uer": "75.666", "valid_wer": "99.828", "valid_raw_wer": "99.655", "valid_wps": "1396.9", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4043", "valid_best_wer": "99.655"}
+[2024-04-23 23:45:15,386][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.828]
+[2024-04-23 23:45:15,387][fairseq_cli.train][INFO] - end of epoch 162 (average epoch stats below)
+[2024-04-23 23:45:15,387][train][INFO] - {"epoch": 162, "train_loss": "995.168", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.339", "train_wps": "10209.4", "train_ups": "0.5", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4043", "train_lr": "0.0001", "train_gnorm": "47.601", "train_loss_scale": "16", "train_train_wall": "39", "train_gb_free": "9.7", "train_wall": "8154"}
+[2024-04-23 23:45:15,394][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:45:16,004][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 163
+[2024-04-23 23:45:16,158][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:45:16,171][fairseq.trainer][INFO] - begin training epoch 163
+[2024-04-23 23:45:16,173][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:45:28,658][train_inner][INFO] - {"epoch": 163, "update": 162.28, "loss": "991.833", "ntokens": "20372.1", "nsentences": "109.34", "nll_loss": "5.323", "wps": "10240.7", "ups": "0.5", "wpb": "20372.1", "bsz": "109.3", "num_updates": "4050", "lr": "0.0001", "gnorm": "50.867", "loss_scale": "16", "train_wall": "77", "gb_free": "9.7", "wall": "8167"}
+[2024-04-23 23:45:56,318][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:45:56,320][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:45:56,727][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 488
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:45:59,302][valid][INFO] - {"epoch": 163, "valid_loss": "1437.84", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.965", "valid_uer": "74.035", "valid_wer": "99.828", "valid_raw_wer": "100.086", "valid_wps": "1459.4", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4068", "valid_best_wer": "99.655"}
+[2024-04-23 23:45:59,307][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:45:59,308][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:45:59,310][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:45:59,775][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 489
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:46:02,329][valid][INFO] - {"epoch": 163, "valid_loss": "1148.6", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.564", "valid_uer": "80.397", "valid_wer": "100", "valid_raw_wer": "99.569", "valid_wps": "1479.9", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4068", "valid_best_wer": "99.655"}
+[2024-04-23 23:46:02,333][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [100.0]
+[2024-04-23 23:46:02,334][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:46:02,336][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:46:02,441][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 490
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:46:05,311][valid][INFO] - {"epoch": 163, "valid_loss": "1321.05", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.399", "valid_uer": "75.811", "valid_wer": "99.914", "valid_raw_wer": "99.828", "valid_wps": "1267.8", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4068", "valid_best_wer": "99.655"}
+[2024-04-23 23:46:05,315][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.914]
+[2024-04-23 23:46:05,316][fairseq_cli.train][INFO] - end of epoch 163 (average epoch stats below)
+[2024-04-23 23:46:05,317][train][INFO] - {"epoch": 163, "train_loss": "985.545", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.287", "train_wps": "10177.8", "train_ups": "0.5", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4068", "train_lr": "0.0001", "train_gnorm": "48.636", "train_loss_scale": "16", "train_train_wall": "39", "train_gb_free": "9.8", "train_wall": "8203"}
+[2024-04-23 23:46:05,323][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:46:05,932][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 164
+[2024-04-23 23:46:06,054][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:46:06,068][fairseq.trainer][INFO] - begin training epoch 164
+[2024-04-23 23:46:06,069][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:46:45,994][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:46:45,996][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:46:46,447][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 491
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:46:49,197][valid][INFO] - {"epoch": 164, "valid_loss": "1442.38", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.987", "valid_uer": "73.987", "valid_wer": "99.828", "valid_raw_wer": "100.345", "valid_wps": "1285.5", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4093", "valid_best_wer": "99.655"}
+[2024-04-23 23:46:49,201][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:46:49,202][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:46:49,204][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:46:49,626][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 492
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:46:52,276][valid][INFO] - {"epoch": 164, "valid_loss": "1153.57", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.588", "valid_uer": "80.074", "valid_wer": "99.828", "valid_raw_wer": "99.655", "valid_wps": "1388.9", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4093", "valid_best_wer": "99.655"}
+[2024-04-23 23:46:52,280][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.828]
+[2024-04-23 23:46:52,281][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:46:52,282][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:46:52,651][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 493
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:46:55,338][valid][INFO] - {"epoch": 164, "valid_loss": "1326.28", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.425", "valid_uer": "75.715", "valid_wer": "100", "valid_raw_wer": "99.655", "valid_wps": "1323.4", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4093", "valid_best_wer": "99.655"}
+[2024-04-23 23:46:55,342][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [100.0]
+[2024-04-23 23:46:55,343][fairseq_cli.train][INFO] - end of epoch 164 (average epoch stats below)
+[2024-04-23 23:46:55,343][train][INFO] - {"epoch": 164, "train_loss": "987.596", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.298", "train_wps": "10157.9", "train_ups": "0.5", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4093", "train_lr": "0.0001", "train_gnorm": "46.216", "train_loss_scale": "16", "train_train_wall": "39", "train_gb_free": "9.7", "train_wall": "8253"}
+[2024-04-23 23:46:55,350][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:46:55,876][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 165
+[2024-04-23 23:46:56,002][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:46:56,030][fairseq.trainer][INFO] - begin training epoch 165
+[2024-04-23 23:46:56,031][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:47:08,697][train_inner][INFO] - {"epoch": 165, "update": 164.28, "loss": "981.383", "ntokens": "20294.3", "nsentences": "109.54", "nll_loss": "5.297", "wps": "10145.7", "ups": "0.5", "wpb": "20294.3", "bsz": "109.5", "num_updates": "4100", "lr": "0.0001", "gnorm": "45.623", "loss_scale": "16", "train_wall": "78", "gb_free": "9.7", "wall": "8267"}
+[2024-04-23 23:47:35,990][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:47:35,992][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:47:36,459][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 494
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:47:39,018][valid][INFO] - {"epoch": 165, "valid_loss": "1439.65", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.974", "valid_uer": "74.116", "valid_wer": "99.914", "valid_raw_wer": "100.431", "valid_wps": "1436.8", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4118", "valid_best_wer": "99.655"}
+[2024-04-23 23:47:39,022][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.914]
+[2024-04-23 23:47:39,022][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:47:39,024][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:47:39,487][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 495
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:47:41,978][valid][INFO] - {"epoch": 165, "valid_loss": "1146.19", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.552", "valid_uer": "80.268", "valid_wer": "99.914", "valid_raw_wer": "99.742", "valid_wps": "1503.3", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4118", "valid_best_wer": "99.655"}
+[2024-04-23 23:47:41,982][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.914]
+[2024-04-23 23:47:41,983][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:47:41,985][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:47:42,399][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 496
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:47:44,916][valid][INFO] - {"epoch": 165, "valid_loss": "1322.64", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.407", "valid_uer": "75.795", "valid_wer": "99.828", "valid_raw_wer": "99.828", "valid_wps": "1504", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4118", "valid_best_wer": "99.655"}
+[2024-04-23 23:47:44,921][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.828]
+[2024-04-23 23:47:44,924][fairseq.checkpoint_utils][INFO] - Preparing to save checkpoint for epoch 165 @ 4118 updates
+[2024-04-23 23:47:44,927][fairseq.trainer][INFO] - Saving checkpoint to /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt
+[2024-04-23 23:47:48,998][fairseq.trainer][INFO] - Finished saving checkpoint to /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt
+[2024-04-23 23:47:49,052][fairseq.checkpoint_utils][INFO] - Saved checkpoint /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt (epoch 165 @ 4118 updates, score 99.914) (writing took 4.128072757972404 seconds)
+[2024-04-23 23:47:49,053][fairseq_cli.train][INFO] - end of epoch 165 (average epoch stats below)
+[2024-04-23 23:47:49,054][train][INFO] - {"epoch": 165, "train_loss": "990.944", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.316", "train_wps": "9461.3", "train_ups": "0.47", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "4118", "train_lr": "0.0001", "train_gnorm": "44.185", "train_loss_scale": "32", "train_train_wall": "38", "train_gb_free": "9.9", "train_wall": "8307"}
+[2024-04-23 23:47:49,061][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:47:49,480][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 166
+[2024-04-23 23:47:49,558][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:47:49,569][fairseq.trainer][INFO] - begin training epoch 166
+[2024-04-23 23:47:49,570][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:48:28,272][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:48:28,275][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:48:28,791][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 497
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:48:31,332][valid][INFO] - {"epoch": 166, "valid_loss": "1444.7", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.998", "valid_uer": "73.825", "valid_wer": "99.828", "valid_raw_wer": "100.603", "valid_wps": "1514.6", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4143", "valid_best_wer": "99.655"}
+[2024-04-23 23:48:31,336][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:48:31,337][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:48:31,338][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:48:31,829][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 498
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:48:34,362][valid][INFO] - {"epoch": 166, "valid_loss": "1157.63", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.608", "valid_uer": "80.026", "valid_wer": "99.828", "valid_raw_wer": "99.311", "valid_wps": "1471.9", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4143", "valid_best_wer": "99.655"}
+[2024-04-23 23:48:34,366][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.828]
+[2024-04-23 23:48:34,367][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:48:34,369][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:48:34,795][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 499
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:48:37,426][valid][INFO] - {"epoch": 166, "valid_loss": "1326.4", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.425", "valid_uer": "75.618", "valid_wer": "99.742", "valid_raw_wer": "99.742", "valid_wps": "1375.6", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4143", "valid_best_wer": "99.655"}
+[2024-04-23 23:48:37,430][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.742]
+[2024-04-23 23:48:37,431][fairseq_cli.train][INFO] - end of epoch 166 (average epoch stats below)
+[2024-04-23 23:48:37,432][train][INFO] - {"epoch": 166, "train_loss": "988.187", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.301", "train_wps": "10504.4", "train_ups": "0.52", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "4143", "train_lr": "0.0001", "train_gnorm": "45.928", "train_loss_scale": "32", "train_train_wall": "38", "train_gb_free": "9.8", "train_wall": "8356"}
+[2024-04-23 23:48:37,439][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:48:37,616][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 167
+[2024-04-23 23:48:37,784][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:48:37,833][fairseq.trainer][INFO] - begin training epoch 167
+[2024-04-23 23:48:37,834][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:48:50,448][train_inner][INFO] - {"epoch": 167, "update": 166.28, "loss": "993.563", "ntokens": "20309.1", "nsentences": "108.5", "nll_loss": "5.308", "wps": "9981.6", "ups": "0.49", "wpb": "20309.1", "bsz": "108.5", "num_updates": "4150", "lr": "0.0001", "gnorm": "44.634", "loss_scale": "32", "train_wall": "76", "gb_free": "9.7", "wall": "8369"}
+[2024-04-23 23:49:17,987][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:49:17,989][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:49:18,387][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 500
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:49:20,944][valid][INFO] - {"epoch": 167, "valid_loss": "1449.85", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.023", "valid_uer": "73.841", "valid_wer": "99.914", "valid_raw_wer": "100.517", "valid_wps": "1446.4", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4168", "valid_best_wer": "99.655"}
+[2024-04-23 23:49:20,949][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.914]
+[2024-04-23 23:49:20,949][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:49:20,951][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:49:21,435][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 501
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:49:23,963][valid][INFO] - {"epoch": 167, "valid_loss": "1157.1", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.605", "valid_uer": "80.268", "valid_wer": "99.828", "valid_raw_wer": "99.225", "valid_wps": "1531.8", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4168", "valid_best_wer": "99.655"}
+[2024-04-23 23:49:23,967][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.828]
+[2024-04-23 23:49:23,968][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:49:23,970][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:49:24,407][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 502
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:49:26,868][valid][INFO] - {"epoch": 167, "valid_loss": "1328.46", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.435", "valid_uer": "75.505", "valid_wer": "99.828", "valid_raw_wer": "99.914", "valid_wps": "1547.2", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4168", "valid_best_wer": "99.655"}
+[2024-04-23 23:49:26,873][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.828]
+[2024-04-23 23:49:26,873][fairseq_cli.train][INFO] - end of epoch 167 (average epoch stats below)
+[2024-04-23 23:49:26,874][train][INFO] - {"epoch": 167, "train_loss": "986.847", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.294", "train_wps": "10278.3", "train_ups": "0.51", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "4168", "train_lr": "0.0001", "train_gnorm": "44.345", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "9.8", "train_wall": "8405"}
+[2024-04-23 23:49:26,880][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:49:27,497][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 168
+[2024-04-23 23:49:27,656][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:49:27,683][fairseq.trainer][INFO] - begin training epoch 168
+[2024-04-23 23:49:27,684][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:50:07,179][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:50:07,182][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:50:07,591][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 503
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:50:10,260][valid][INFO] - {"epoch": 168, "valid_loss": "1450.07", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.024", "valid_uer": "73.858", "valid_wer": "99.914", "valid_raw_wer": "100.689", "valid_wps": "1381.5", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4193", "valid_best_wer": "99.655"}
+[2024-04-23 23:50:10,266][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.914]
+[2024-04-23 23:50:10,266][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:50:10,268][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:50:10,727][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 504
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:50:13,315][valid][INFO] - {"epoch": 168, "valid_loss": "1153.07", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.586", "valid_uer": "79.525", "valid_wer": "99.655", "valid_raw_wer": "99.483", "valid_wps": "1477.7", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4193", "valid_best_wer": "99.655"}
+[2024-04-23 23:50:13,319][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.655]
+[2024-04-23 23:50:13,320][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:50:13,322][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:50:13,795][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 505
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:50:16,334][valid][INFO] - {"epoch": 168, "valid_loss": "1330.57", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.445", "valid_uer": "75.488", "valid_wer": "99.914", "valid_raw_wer": "99.655", "valid_wps": "1555.1", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4193", "valid_best_wer": "99.655"}
+[2024-04-23 23:50:16,338][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.914]
+[2024-04-23 23:50:16,339][fairseq_cli.train][INFO] - end of epoch 168 (average epoch stats below)
+[2024-04-23 23:50:16,340][train][INFO] - {"epoch": 168, "train_loss": "993.517", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.33", "train_wps": "10273.3", "train_ups": "0.51", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "4193", "train_lr": "0.0001", "train_gnorm": "42.148", "train_loss_scale": "32", "train_train_wall": "38", "train_gb_free": "10", "train_wall": "8454"}
+[2024-04-23 23:50:16,346][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:50:17,028][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 169
+[2024-04-23 23:50:17,174][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:50:17,205][fairseq.trainer][INFO] - begin training epoch 169
+[2024-04-23 23:50:17,217][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:50:30,073][train_inner][INFO] - {"epoch": 169, "update": 168.28, "loss": "990.658", "ntokens": "20373.5", "nsentences": "109.26", "nll_loss": "5.313", "wps": "10228.2", "ups": "0.5", "wpb": "20373.5", "bsz": "109.3", "num_updates": "4200", "lr": "0.0001", "gnorm": "42.978", "loss_scale": "32", "train_wall": "77", "gb_free": "9.7", "wall": "8468"}
+[2024-04-23 23:50:57,366][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:50:57,368][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:50:57,846][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 506
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:51:00,345][valid][INFO] - {"epoch": 169, "valid_loss": "1449.82", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.023", "valid_uer": "73.825", "valid_wer": "100", "valid_raw_wer": "100.775", "valid_wps": "1469.3", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4218", "valid_best_wer": "99.655"}
+[2024-04-23 23:51:00,350][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [100.0]
+[2024-04-23 23:51:00,351][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:51:00,353][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:51:00,715][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 507
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:51:03,376][valid][INFO] - {"epoch": 169, "valid_loss": "1152.23", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.582", "valid_uer": "79.929", "valid_wer": "99.655", "valid_raw_wer": "99.655", "valid_wps": "1392.6", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4218", "valid_best_wer": "99.655"}
+[2024-04-23 23:51:03,381][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.655]
+[2024-04-23 23:51:03,382][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:51:03,384][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:51:03,847][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 508
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:51:06,411][valid][INFO] - {"epoch": 169, "valid_loss": "1332.86", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.457", "valid_uer": "75.618", "valid_wer": "100", "valid_raw_wer": "99.569", "valid_wps": "1461.6", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4218", "valid_best_wer": "99.655"}
+[2024-04-23 23:51:06,416][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [100.0]
+[2024-04-23 23:51:06,417][fairseq_cli.train][INFO] - end of epoch 169 (average epoch stats below)
+[2024-04-23 23:51:06,417][train][INFO] - {"epoch": 169, "train_loss": "989.033", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.306", "train_wps": "10147.7", "train_ups": "0.5", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "4218", "train_lr": "0.0001", "train_gnorm": "42.527", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "10", "train_wall": "8505"}
+[2024-04-23 23:51:06,424][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:51:06,830][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 170
+[2024-04-23 23:51:06,984][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:51:07,016][fairseq.trainer][INFO] - begin training epoch 170
+[2024-04-23 23:51:07,030][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:51:46,942][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:51:46,945][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:51:47,399][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 509
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:51:50,088][valid][INFO] - {"epoch": 170, "valid_loss": "1456.01", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.053", "valid_uer": "73.761", "valid_wer": "100", "valid_raw_wer": "100.517", "valid_wps": "1394.6", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4243", "valid_best_wer": "99.655"}
+[2024-04-23 23:51:50,093][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [100.0]
+[2024-04-23 23:51:50,093][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:51:50,095][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:51:50,605][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 510
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:51:53,139][valid][INFO] - {"epoch": 170, "valid_loss": "1152.94", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.585", "valid_uer": "79.654", "valid_wer": "99.828", "valid_raw_wer": "99.483", "valid_wps": "1487.9", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4243", "valid_best_wer": "99.655"}
+[2024-04-23 23:51:53,143][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.828]
+[2024-04-23 23:51:53,144][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:51:53,146][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:51:53,599][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 511
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:51:56,144][valid][INFO] - {"epoch": 170, "valid_loss": "1335.38", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.469", "valid_uer": "75.392", "valid_wer": "100", "valid_raw_wer": "99.828", "valid_wps": "1400.8", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4243", "valid_best_wer": "99.655"}
+[2024-04-23 23:51:56,149][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [100.0]
+[2024-04-23 23:51:56,151][fairseq.checkpoint_utils][INFO] - Preparing to save checkpoint for epoch 170 @ 4243 updates
+[2024-04-23 23:51:56,154][fairseq.trainer][INFO] - Saving checkpoint to /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt
+[2024-04-23 23:52:00,160][fairseq.trainer][INFO] - Finished saving checkpoint to /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt
+[2024-04-23 23:52:00,219][fairseq.checkpoint_utils][INFO] - Saved checkpoint /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt (epoch 170 @ 4243 updates, score 100.0) (writing took 4.067389224888757 seconds)
+[2024-04-23 23:52:00,220][fairseq_cli.train][INFO] - end of epoch 170 (average epoch stats below)
+[2024-04-23 23:52:00,221][train][INFO] - {"epoch": 170, "train_loss": "995.916", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.343", "train_wps": "9444.9", "train_ups": "0.46", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4243", "train_lr": "0.0001", "train_gnorm": "45.96", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "9.9", "train_wall": "8558"}
+[2024-04-23 23:52:00,228][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:52:00,684][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 171
+[2024-04-23 23:52:00,763][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:52:00,777][fairseq.trainer][INFO] - begin training epoch 171
+[2024-04-23 23:52:00,777][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:52:12,555][train_inner][INFO] - {"epoch": 171, "update": 170.28, "loss": "997.436", "ntokens": "20288.9", "nsentences": "108.28", "nll_loss": "5.323", "wps": "9901.7", "ups": "0.49", "wpb": "20288.9", "bsz": "108.3", "num_updates": "4250", "lr": "0.0001", "gnorm": "44.963", "loss_scale": "32", "train_wall": "77", "gb_free": "9.7", "wall": "8571"}
+[2024-04-23 23:52:40,209][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:52:40,211][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:52:40,289][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 512
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:52:43,183][valid][INFO] - {"epoch": 171, "valid_loss": "1453.2", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.04", "valid_uer": "73.841", "valid_wer": "99.828", "valid_raw_wer": "100.689", "valid_wps": "1253.5", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4268", "valid_best_wer": "99.655"}
+[2024-04-23 23:52:43,188][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:52:43,189][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:52:43,191][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:52:43,262][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 513
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:52:46,134][valid][INFO] - {"epoch": 171, "valid_loss": "1153.4", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.587", "valid_uer": "79.719", "valid_wer": "100", "valid_raw_wer": "99.742", "valid_wps": "1254.2", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4268", "valid_best_wer": "99.655"}
+[2024-04-23 23:52:46,139][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [100.0]
+[2024-04-23 23:52:46,139][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:52:46,142][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:52:46,211][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 514
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:52:49,129][valid][INFO] - {"epoch": 171, "valid_loss": "1335.35", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.469", "valid_uer": "75.779", "valid_wer": "99.914", "valid_raw_wer": "99.828", "valid_wps": "1228.4", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4268", "valid_best_wer": "99.655"}
+[2024-04-23 23:52:49,133][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.914]
+[2024-04-23 23:52:49,134][fairseq_cli.train][INFO] - end of epoch 171 (average epoch stats below)
+[2024-04-23 23:52:49,135][train][INFO] - {"epoch": 171, "train_loss": "987.428", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.297", "train_wps": "10389.2", "train_ups": "0.51", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "4268", "train_lr": "0.0001", "train_gnorm": "50.44", "train_loss_scale": "32", "train_train_wall": "38", "train_gb_free": "9.8", "train_wall": "8607"}
+[2024-04-23 23:52:49,141][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:52:49,480][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 172
+[2024-04-23 23:52:49,652][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:52:49,662][fairseq.trainer][INFO] - begin training epoch 172
+[2024-04-23 23:52:49,675][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:53:30,133][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:53:30,135][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:53:30,379][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 515
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:53:33,127][valid][INFO] - {"epoch": 172, "valid_loss": "1453.12", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.039", "valid_uer": "73.728", "valid_wer": "99.828", "valid_raw_wer": "100.517", "valid_wps": "1335.7", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4293", "valid_best_wer": "99.655"}
+[2024-04-23 23:53:33,132][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:53:33,132][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:53:33,134][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:53:33,551][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 516
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:53:36,120][valid][INFO] - {"epoch": 172, "valid_loss": "1147.09", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.557", "valid_uer": "79.396", "valid_wer": "99.569", "valid_raw_wer": "99.655", "valid_wps": "1382", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4293", "valid_best_wer": "99.569"}
+[2024-04-23 23:53:36,124][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.569]
+[2024-04-23 23:53:36,124][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:53:36,126][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:53:36,563][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 517
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:53:39,196][valid][INFO] - {"epoch": 172, "valid_loss": "1330.94", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.447", "valid_uer": "75.779", "valid_wer": "99.742", "valid_raw_wer": "99.828", "valid_wps": "1444.9", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4293", "valid_best_wer": "99.655"}
+[2024-04-23 23:53:39,201][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.742]
+[2024-04-23 23:53:39,201][fairseq_cli.train][INFO] - end of epoch 172 (average epoch stats below)
+[2024-04-23 23:53:39,202][train][INFO] - {"epoch": 172, "train_loss": "992.202", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.323", "train_wps": "10149.7", "train_ups": "0.5", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4293", "train_lr": "0.0001", "train_gnorm": "42.791", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "10", "train_wall": "8657"}
+[2024-04-23 23:53:39,209][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:53:39,700][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 173
+[2024-04-23 23:53:39,877][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:53:39,913][fairseq.trainer][INFO] - begin training epoch 173
+[2024-04-23 23:53:39,927][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:53:52,265][train_inner][INFO] - {"epoch": 173, "update": 172.28, "loss": "983.177", "ntokens": "20331.6", "nsentences": "109.9", "nll_loss": "5.314", "wps": "10199.7", "ups": "0.5", "wpb": "20331.6", "bsz": "109.9", "num_updates": "4300", "lr": "0.0001", "gnorm": "46.419", "loss_scale": "32", "train_wall": "78", "gb_free": "9.7", "wall": "8670"}
+[2024-04-23 23:54:19,932][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:54:19,935][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:54:20,395][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 518
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:54:23,058][valid][INFO] - {"epoch": 173, "valid_loss": "1453.18", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.039", "valid_uer": "73.599", "valid_wer": "99.828", "valid_raw_wer": "100.345", "valid_wps": "1388.6", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4318", "valid_best_wer": "99.655"}
+[2024-04-23 23:54:23,062][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:54:23,063][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:54:23,065][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:54:23,551][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 519
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:54:26,110][valid][INFO] - {"epoch": 173, "valid_loss": "1152.06", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.581", "valid_uer": "79.606", "valid_wer": "99.742", "valid_raw_wer": "99.828", "valid_wps": "1433.9", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4318", "valid_best_wer": "99.655"}
+[2024-04-23 23:54:26,114][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.742]
+[2024-04-23 23:54:26,115][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:54:26,117][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:54:26,171][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 520
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:54:29,046][valid][INFO] - {"epoch": 173, "valid_loss": "1333.52", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.46", "valid_uer": "75.327", "valid_wer": "100", "valid_raw_wer": "99.742", "valid_wps": "1221.4", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4318", "valid_best_wer": "99.655"}
+[2024-04-23 23:54:29,050][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [100.0]
+[2024-04-23 23:54:29,051][fairseq_cli.train][INFO] - end of epoch 173 (average epoch stats below)
+[2024-04-23 23:54:29,052][train][INFO] - {"epoch": 173, "train_loss": "997.954", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.354", "train_wps": "10194.2", "train_ups": "0.5", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "4318", "train_lr": "0.0001", "train_gnorm": "71.838", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "9.8", "train_wall": "8707"}
+[2024-04-23 23:54:29,059][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:54:29,133][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 174
+[2024-04-23 23:54:29,278][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:54:29,308][fairseq.trainer][INFO] - begin training epoch 174
+[2024-04-23 23:54:29,319][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:55:09,553][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:55:09,556][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:55:10,135][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 521
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:55:12,641][valid][INFO] - {"epoch": 174, "valid_loss": "1454.96", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.048", "valid_uer": "73.648", "valid_wer": "99.742", "valid_raw_wer": "100.258", "valid_wps": "1456.3", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4343", "valid_best_wer": "99.655"}
+[2024-04-23 23:55:12,646][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.742]
+[2024-04-23 23:55:12,646][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:55:12,648][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:55:13,075][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 522
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:55:15,567][valid][INFO] - {"epoch": 174, "valid_loss": "1155.12", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.596", "valid_uer": "79.025", "valid_wer": "99.828", "valid_raw_wer": "99.655", "valid_wps": "1443.8", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4343", "valid_best_wer": "99.655"}
+[2024-04-23 23:55:15,571][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.828]
+[2024-04-23 23:55:15,572][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:55:15,573][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:55:16,065][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 523
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:55:18,630][valid][INFO] - {"epoch": 174, "valid_loss": "1332.21", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.453", "valid_uer": "75.424", "valid_wer": "99.828", "valid_raw_wer": "99.828", "valid_wps": "1433", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4343", "valid_best_wer": "99.655"}
+[2024-04-23 23:55:18,635][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.828]
+[2024-04-23 23:55:18,635][fairseq_cli.train][INFO] - end of epoch 174 (average epoch stats below)
+[2024-04-23 23:55:18,636][train][INFO] - {"epoch": 174, "train_loss": "989.604", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.309", "train_wps": "10248.8", "train_ups": "0.5", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4343", "train_lr": "0.0001", "train_gnorm": "43.623", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "9.7", "train_wall": "8757"}
+[2024-04-23 23:55:18,642][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:55:19,184][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 175
+[2024-04-23 23:55:19,305][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:55:19,343][fairseq.trainer][INFO] - begin training epoch 175
+[2024-04-23 23:55:19,371][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:55:31,672][train_inner][INFO] - {"epoch": 175, "update": 174.28, "loss": "1005.1", "ntokens": "20377.8", "nsentences": "108.02", "nll_loss": "5.328", "wps": "10251.5", "ups": "0.5", "wpb": "20377.8", "bsz": "108", "num_updates": "4350", "lr": "0.0001", "gnorm": "58.572", "loss_scale": "32", "train_wall": "78", "gb_free": "9.7", "wall": "8770"}
+[2024-04-23 23:55:59,191][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:55:59,193][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:55:59,707][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 524
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:56:02,338][valid][INFO] - {"epoch": 175, "valid_loss": "1458.26", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.064", "valid_uer": "73.615", "valid_wer": "99.828", "valid_raw_wer": "100.172", "valid_wps": "1388", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4368", "valid_best_wer": "99.655"}
+[2024-04-23 23:56:02,344][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:56:02,344][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:56:02,346][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:56:02,880][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 525
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:56:05,438][valid][INFO] - {"epoch": 175, "valid_loss": "1156.33", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.601", "valid_uer": "78.912", "valid_wer": "99.742", "valid_raw_wer": "99.914", "valid_wps": "1447.1", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4368", "valid_best_wer": "99.655"}
+[2024-04-23 23:56:05,442][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.742]
+[2024-04-23 23:56:05,443][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:56:05,444][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:56:05,871][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 526
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:56:08,525][valid][INFO] - {"epoch": 175, "valid_loss": "1334.03", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.462", "valid_uer": "75.375", "valid_wer": "99.828", "valid_raw_wer": "99.483", "valid_wps": "1317.3", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4368", "valid_best_wer": "99.655"}
+[2024-04-23 23:56:08,529][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.828]
+[2024-04-23 23:56:08,532][fairseq.checkpoint_utils][INFO] - Preparing to save checkpoint for epoch 175 @ 4368 updates
+[2024-04-23 23:56:08,535][fairseq.trainer][INFO] - Saving checkpoint to /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt
+[2024-04-23 23:56:12,603][fairseq.trainer][INFO] - Finished saving checkpoint to /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt
+[2024-04-23 23:56:12,664][fairseq.checkpoint_utils][INFO] - Saved checkpoint /h/addisonw/fairseq/checkpoints/noNoise/checkpoint_last.pt (epoch 175 @ 4368 updates, score 99.828) (writing took 4.1317257741466165 seconds)
+[2024-04-23 23:56:12,665][fairseq_cli.train][INFO] - end of epoch 175 (average epoch stats below)
+[2024-04-23 23:56:12,666][train][INFO] - {"epoch": 175, "train_loss": "994.41", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.335", "train_wps": "9405.4", "train_ups": "0.46", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4368", "train_lr": "0.0001", "train_gnorm": "43.682", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "9.8", "train_wall": "8811"}
+[2024-04-23 23:56:12,672][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:56:13,123][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 176
+[2024-04-23 23:56:13,185][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:56:13,199][fairseq.trainer][INFO] - begin training epoch 176
+[2024-04-23 23:56:13,200][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:56:52,475][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:56:52,477][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:56:52,987][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 527
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:56:55,605][valid][INFO] - {"epoch": 176, "valid_loss": "1463.15", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.088", "valid_uer": "73.648", "valid_wer": "99.914", "valid_raw_wer": "100.172", "valid_wps": "1423.1", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4393", "valid_best_wer": "99.655"}
+[2024-04-23 23:56:55,610][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.914]
+[2024-04-23 23:56:55,611][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:56:55,613][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:56:56,035][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 528
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:56:58,683][valid][INFO] - {"epoch": 176, "valid_loss": "1155.2", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.596", "valid_uer": "78.992", "valid_wer": "99.569", "valid_raw_wer": "99.569", "valid_wps": "1312.8", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4393", "valid_best_wer": "99.569"}
+[2024-04-23 23:56:58,688][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.569]
+[2024-04-23 23:56:58,688][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:56:58,690][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:56:59,149][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 529
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:57:01,762][valid][INFO] - {"epoch": 176, "valid_loss": "1338.86", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.486", "valid_uer": "75.246", "valid_wer": "99.742", "valid_raw_wer": "99.655", "valid_wps": "1369.3", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4393", "valid_best_wer": "99.655"}
+[2024-04-23 23:57:01,767][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.742]
+[2024-04-23 23:57:01,767][fairseq_cli.train][INFO] - end of epoch 176 (average epoch stats below)
+[2024-04-23 23:57:01,768][train][INFO] - {"epoch": 176, "train_loss": "982.709", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.272", "train_wps": "10349.3", "train_ups": "0.51", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4393", "train_lr": "0.0001", "train_gnorm": "43.364", "train_loss_scale": "32", "train_train_wall": "38", "train_gb_free": "9.8", "train_wall": "8860"}
+[2024-04-23 23:57:01,774][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:57:02,419][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 177
+[2024-04-23 23:57:02,544][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:57:02,596][fairseq.trainer][INFO] - begin training epoch 177
+[2024-04-23 23:57:02,609][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:57:15,238][train_inner][INFO] - {"epoch": 177, "update": 176.28, "loss": "978.605", "ntokens": "20298.3", "nsentences": "109.96", "nll_loss": "5.301", "wps": "9803.4", "ups": "0.48", "wpb": "20298.3", "bsz": "110", "num_updates": "4400", "lr": "0.0001", "gnorm": "42.115", "loss_scale": "32", "train_wall": "77", "gb_free": "9.7", "wall": "8873"}
+[2024-04-23 23:57:42,495][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:57:42,498][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:57:42,995][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 530
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:57:45,536][valid][INFO] - {"epoch": 177, "valid_loss": "1460.79", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.076", "valid_uer": "73.712", "valid_wer": "99.828", "valid_raw_wer": "100.258", "valid_wps": "1516.4", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4418", "valid_best_wer": "99.655"}
+[2024-04-23 23:57:45,540][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.828]
+[2024-04-23 23:57:45,541][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:57:45,543][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:57:45,975][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 531
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:57:48,592][valid][INFO] - {"epoch": 177, "valid_loss": "1153.23", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.586", "valid_uer": "79.574", "valid_wer": "99.914", "valid_raw_wer": "99.655", "valid_wps": "1437.7", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4418", "valid_best_wer": "99.655"}
+[2024-04-23 23:57:48,597][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.914]
+[2024-04-23 23:57:48,597][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:57:48,599][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:57:49,031][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 532
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:57:51,608][valid][INFO] - {"epoch": 177, "valid_loss": "1339.6", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.489", "valid_uer": "75.295", "valid_wer": "99.914", "valid_raw_wer": "99.828", "valid_wps": "1455", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4418", "valid_best_wer": "99.655"}
+[2024-04-23 23:57:51,612][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [99.914]
+[2024-04-23 23:57:51,613][fairseq_cli.train][INFO] - end of epoch 177 (average epoch stats below)
+[2024-04-23 23:57:51,614][train][INFO] - {"epoch": 177, "train_loss": "988.73", "train_ntokens": "20325.2", "train_nsentences": "109.04", "train_nll_loss": "5.304", "train_wps": "10194.8", "train_ups": "0.5", "train_wpb": "20325.2", "train_bsz": "109", "train_num_updates": "4418", "train_lr": "0.0001", "train_gnorm": "39.099", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "9.8", "train_wall": "8910"}
+[2024-04-23 23:57:51,620][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:57:51,746][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 178
+[2024-04-23 23:57:51,947][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:57:51,968][fairseq.trainer][INFO] - begin training epoch 178
+[2024-04-23 23:57:51,987][fairseq_cli.train][INFO] - Start iterating over samples
+[2024-04-23 23:58:32,374][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:58:32,377][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:58:32,879][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 533
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITHOUT NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:58:35,537][valid][INFO] - {"epoch": 178, "valid_loss": "1461.95", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "7.082", "valid_uer": "73.632", "valid_wer": "99.914", "valid_raw_wer": "100", "valid_wps": "1355", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4443", "valid_best_wer": "99.655"}
+[2024-04-23 23:58:35,542][fairseq_cli.train][INFO] - Validation losses for noise type 'None': [99.914]
+[2024-04-23 23:58:35,542][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:58:35,544][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:58:35,963][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 534
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH GAUSSIAN NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:58:38,588][valid][INFO] - {"epoch": 178, "valid_loss": "1152.3", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "5.582", "valid_uer": "79.38", "valid_wer": "99.828", "valid_raw_wer": "99.828", "valid_wps": "1405.1", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4443", "valid_best_wer": "99.655"}
+[2024-04-23 23:58:38,592][fairseq_cli.train][INFO] - Validation losses for noise type 'gaussian': [99.828]
+[2024-04-23 23:58:38,593][fairseq_cli.train][INFO] - begin validation on "valid" subset
+[2024-04-23 23:58:38,595][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:58:39,051][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 535
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+VALID STEP WITH UNIFORM NOISE
+EVAL STEP. CRITERION 
+CtcCriterion()
+[2024-04-23 23:58:41,695][valid][INFO] - {"epoch": 178, "valid_loss": "1340.2", "valid_ntokens": "3096.5", "valid_nsentences": "15", "valid_nll_loss": "6.492", "valid_uer": "75.182", "valid_wer": "100", "valid_raw_wer": "99.828", "valid_wps": "1364.5", "valid_wpb": "3096.5", "valid_bsz": "15", "valid_num_updates": "4443", "valid_best_wer": "99.655"}
+[2024-04-23 23:58:41,699][fairseq_cli.train][INFO] - Validation losses for noise type 'uniform': [100.0]
+[2024-04-23 23:58:41,700][fairseq_cli.train][INFO] - end of epoch 178 (average epoch stats below)
+[2024-04-23 23:58:41,701][train][INFO] - {"epoch": 178, "train_loss": "982.847", "train_ntokens": "20325.4", "train_nsentences": "109.04", "train_nll_loss": "5.273", "train_wps": "10145.7", "train_ups": "0.5", "train_wpb": "20325.4", "train_bsz": "109", "train_num_updates": "4443", "train_lr": "0.0001", "train_gnorm": "45.482", "train_loss_scale": "32", "train_train_wall": "39", "train_gb_free": "9.7", "train_wall": "8960"}
+[2024-04-23 23:58:41,707][fairseq.tasks.fairseq_task][INFO] - can_reuse_epoch_itr = True
+[2024-04-23 23:58:42,438][fairseq.tasks.fairseq_task][INFO] - creating new batches for epoch 179
+[2024-04-23 23:58:42,543][fairseq.data.iterators][INFO] - grouped total_num_itrs = 25
+[2024-04-23 23:58:42,595][fairseq.trainer][INFO] - begin training epoch 179
+[2024-04-23 23:58:42,595][fairseq_cli.train][INFO] - Start iterating over samples
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+slurmstepd: error: *** STEP 12424061.0 ON gpu077 CANCELLED AT 2024-04-23T23:58:50 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 12424061 ON gpu077 CANCELLED AT 2024-04-23T23:58:50 DUE TO TIME LIMIT ***
